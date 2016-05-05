@@ -30,6 +30,8 @@ gem "paperclip", "~> 4.3.6"
 
 gem 'simple_form'
 
+gem 'devise'
+
 
 
 # Use ActiveModel has_secure_password
