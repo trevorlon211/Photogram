@@ -188,7 +188,7 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   byebug
   coffee-rails (~> 4.1.0)
-  devise
+  devise (~> 3.5.8)
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks

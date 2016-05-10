@@ -33,7 +33,7 @@ gem "paperclip", "~> 4.3.6"
 
 gem 'simple_form'
 
-gem 'devise'
+gem 'devise', '~> 3.5.8'
 
 
 
