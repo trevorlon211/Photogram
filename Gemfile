@@ -36,6 +36,9 @@ gem 'kaminari', '~> 0.16.3'
 
 gem "factory_girl_rails", "~> 4.0"  
 
+gem 'acts_as_votable', '~> 0.10.0'  
+
+
 
 
 # Use ActiveModel has_secure_password
