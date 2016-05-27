@@ -39,4 +39,4 @@ class ProfilesController < ApplicationController
   end
 
 end
-Status API Training Shop Blog About
+
