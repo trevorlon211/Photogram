@@ -14,14 +14,14 @@
  *= require_self
  */
 
- @import "bootstrap-sprockets";
+  @import "bootstrap-sprockets";
  @import "bootstrap";
 
-html {  
+html {
   height: 100%;
 }
 
-body {  
+body {
   height: 100%;
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -118,7 +118,7 @@ body {
       font-weight: 500;
       margin-right: 0.3em;
     }
-    .delete-comment {
+    .delete-comment-icon {
       float: right;
       color: #515151;
     }
@@ -285,6 +285,7 @@ body {
 .likes {
   margin-top: 20px;
   margin-bottom: 7px;
+  color: #4b4f54;
 }
 
 .like {
@@ -295,4 +296,23 @@ body {
 .like-button a:hover, a:focus {
   text-decoration: none;
   color: red;
+}
+
+// NOTIFICATIONS
+
+.notification-dropdown {
+  margin-top: 10px;
+  button {
+    border: none;
+  }
+}
+
+.notification-index-list {
+  margin-top: 5em;
+  list-style: none;
+  li {
+    margin-top: 1em;
+    background-color: white;
+    padding: 1em;
+  }
 }
